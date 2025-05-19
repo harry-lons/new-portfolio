@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 180 100% 50%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 36 100% 50%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 180 100% 50%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 220 70% 10%;
+    --foreground: 0 0% 98%;
+    --card: 220 70% 12%;
+    --card-foreground: 0 0% 98%;
+    --popover: 220 70% 10%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 180 100% 50%;
+    --primary-foreground: 220 70% 10%;
+    --secondary: 220 50% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 220 50% 15.9%;
+    --muted-foreground: 220 10% 70%;
+    --accent: 36 100% 50%;
+    --accent-foreground: 220 70% 10%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 50% 15.9%;
+    --input: 220 50% 15.9%;
+    --ring: 180 100% 50%;
+    --highlight: 280 100% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    scroll-behavior: smooth;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem; /* Adds padding for fixed header */
+}
+
+/* Disable transitions temporarily when changing themes */
+.transition-none * {
+  transition: none !important;
+}
+
+.prose {
+  @apply text-foreground;
+}
+
+.prose p {
+  @apply mb-4;
+}
+
+.prose ul {
+  @apply list-disc pl-6 mb-4;
+}
+
+.prose li {
+  @apply mb-1;
+}
+
+/* Define custom classes using standard CSS instead of @apply */
+.gradient-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #00e0ff, #8a7cfb);
+}
+
+.accent-border {
+  border-left: 4px solid #00e0ff;
+  padding-left: 1rem;
+}
+
+.accent-border-gold {
+  border-left: 4px solid #ffb300;
+  padding-left: 1rem;
+}
+
+.highlight-text {
+  color: #d580ff;
+}
+
+.section-divider {
+  height: 0.25rem;
+  width: 6rem;
+  margin: 3rem auto;
+  background-image: linear-gradient(to right, #00e0ff, #8a7cfb, #ffb300);
+  border-radius: 9999px;
+}
+
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  box-shadow: 0 0 15px rgba(0, 224, 255, 0.5);
+}
