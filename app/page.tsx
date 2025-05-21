@@ -39,13 +39,11 @@ export default function Home() {
         </h2>
         <div className="space-y-4 accent-border">
           <p>
-            I'm a software engineer specializing in building exceptional digital experiences. Currently, I'm focused on
-            building accessible, human-centered products.
+          I'm Harry Lonsdale, a third-year undergraduate student in Mathematics - Computer Science at UC San Diego.
+          This is my portfolio documenting my work. Check out some of my projects, or scroll to the bottom for contact info.
           </p>
           <p>
-            With over 5 years of experience in web development, I've worked with a variety of technologies including
-            React, Next.js, Node.js, and TypeScript. I'm passionate about creating clean, efficient, and user-friendly
-            applications.
+          I'm a software engineer with experience across a wide range of fields, including full-stack web development, robotics,  data visualization, and more. I've built responsive React frontends that interface with microcontrollers for real-time control, developed computer vision algorithms using ROS2/C++ for competitive robotics, and created DevOps dashboards and E-commerce features.
           </p>
         </div>
       </section>
@@ -68,7 +66,7 @@ export default function Home() {
           Get in touch
         </h2>
         <p className="mb-8 text-muted-foreground accent-border-gold mx-auto max-w-2xl text-left">
-          Feel free to reach out if curious about my work, or if you have any questions. I'm always open to discussing new projects, ideas, or opportunities!
+          Feel free to reach out if curious about my work, or if you have any questions. Though I'm not currently seeking work, I'm always open to discussing new projects and ideas!
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Button asChild className="bg-[#00e0ff] hover:bg-[#00e0ff]/80 text-black">

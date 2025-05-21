@@ -77,7 +77,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
 
             {project.liveUrl && (
               <div>
-                <h3 className="font-medium text-[#d580ff]">Live Demo</h3>
+                <h3 className="font-medium text-[#d580ff]">Relevant Link</h3>
                 <Button asChild size="sm" className="mt-2 bg-[#00e0ff] hover:bg-[#00e0ff]/80 text-black">
                   <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                     Visit Site
