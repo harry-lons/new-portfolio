@@ -10,30 +10,11 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      {/* Hero Section */}
-      <section id="home" className="flex flex-col items-center justify-center min-h-screen px-4 text-center">
-        <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl gradient-text">Harry Lonsdale</h1>
-        <p className="mt-4 text-xl text-muted-foreground">Software Engineer</p>
-        <div className="mt-8 flex flex-col sm:flex-row gap-4">
-          <Button
-            asChild
-            variant="outline"
-            className="border-[#00e0ff] hover:border-[#00e0ff]/80 hover:bg-[#00e0ff]/10"
-          >
-            <Link href="/#projects">View Projects</Link>
-          </Button>
-          <Button asChild className="bg-[#00e0ff] hover:bg-[#00e0ff]/80 text-black">
-            <a href="https://drive.google.com/file/d/1TNocyf-MipzvTnQke-w1UUqLZv2bKo4x/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-              View Resume
-            </a>
-          </Button>
-        </div>
-      </section>
-
-      <div className="section-divider" />
 
       {/* About Section */}
       <section id="about" className="py-20 px-4 max-w-5xl mx-auto">
+        <h1 className="text-4xl font-bold tracking-tight mb-8 sm:text-5xl md:text-6xl text-center">Harry Lonsdale</h1>
+      <div className="section-divider" />
         <h2 className="text-3xl font-bold tracking-tight mb-8 text-center">
           About me
         </h2>
@@ -45,6 +26,20 @@ export default function Home() {
           <p>
           I'm a software engineer with experience across a wide range of fields, including full-stack web development, robotics,  data visualization, and more. I've built responsive React frontends that interface with microcontrollers for real-time control, developed computer vision algorithms using ROS2/C++ for competitive robotics, and created DevOps dashboards and E-commerce features.
           </p>
+        </div>
+        <div className="mt-8 flex flex-col sm:flex-row gap-4 items-center justify-center">
+          <Button
+            asChild
+            variant="outline"
+            className="border-[#00e0ff] hover:border-[#00e0ff]/80 hover:bg-[#00e0ff]/10"
+          >
+            <Link href="/#projects">View Projects</Link>
+          </Button>
+          <Button asChild className="bg-[#00e0ff] hover:bg-[#00e0ff]/80 text-black">
+            <a href="https://drive.google.com/file/d/11DFZeLhyl4B_pc4L4wEA6ju1qkMfVBPV/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              View Resume
+            </a>
+          </Button>
         </div>
       </section>
 

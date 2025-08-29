@@ -1,6 +1,29 @@
 export const projects = [
+  
   {
-    "title": "Upcoming Internship at The Aerospace Corporation",
+    "title": "Brownian Motion Simulator",
+    "slug": "brownian-motion-simulator",
+    "category": "Frontend Development, Data Visualization, Mathematics",
+    "image": "/brownian.png?height=600&width=800",
+    "year": "2025",
+    "technologies": ["React", "TypeScript", "NextJS"],
+    "liveUrl": "https://brownian.harrylons.com",
+    "githubUrl": "https://github.com/harry-lons/brownian-motion-viz",
+    "description": `
+      <p>The Brownian Motion Simulator is an educational and interactive tool for visualizing stochastic processes, specifically Brownian motion, via an intuitive web interface.</p>
+      <p>Developed as a solo project, this app demonstrates how varying the drift <strong>(μ)</strong>, diffusion <strong>(σ)</strong>, number of steps <strong>(n)</strong>, and time interval <strong>(k)</strong> affects the behavior of a simulated random particle trajectory.</p>
+      <p>The simulator uses mathematical foundations from stochastic calculus, based on the stochastic differential equation (SDE) <strong>dX(t) = μ dt + σ dW(t)</strong>, and is geared toward students.</p>
+      <p>Key features:</p>
+      <ul>
+        <li>Graphing of brownian motion with adjustable parameters</li>
+        <li>Clear visualization of stochastic trends and volatility</li>
+        <li>Mathematical context provided via concise educational content</li>
+        <li>Fully responsive and visually clean UI</li>
+      </ul>
+    `
+  },  
+  {
+    "title": "Internship at The Aerospace Corporation",
     "slug": "aerospace-internship",
     "category": null,
     "image": "/aero.png?height=600&width=800",
@@ -9,7 +32,15 @@ export const projects = [
     "liveUrl": "https://aerospace.org",
     "githubUrl": "",
     "description": `
-      <p>In Summer 2025, I will be joining <a href="https://aerospace.org" target="_blank">The Aerospace Corporation</a> as a Software Engineering Intern! (upcoming)</p>
+      <p>In Summer 2025, I interned at <a href="https://aerospace.org" target="_blank">The Aerospace Corporation</a> as a Software Engineering Intern.</p>
+      <p>Key responsibilities:</p>
+      <ul>
+      <li>Refactored a 5,000+ line codebase including five disparate languages into a unified, modular architecture to support a real-time algorithm, enhancing maintainability, scalability, and performance</li>
+      <li>Created multiple new pages and overhauled authentication scheme for Flask web application</li>
+      <li>Improved string comparison algorithm performance by 500x, leading to significantly reduced load times for users</li>
+      <li>Wrote 50-page research paper about AI tool impacts on Software Development Life Cycle (SDLC)</li>
+      </ul>
+
     `
   }
   ,

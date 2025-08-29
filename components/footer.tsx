@@ -17,12 +17,6 @@ export default function Footer() {
           >
             LinkedIn
           </Link>
-          <Link
-            href="https://instagram.com/harry.lons"
-            className="text-sm text-muted-foreground hover:text-[#d580ff] transition-colors"
-          >
-            Instagram
-          </Link>
         </div>
       </div>
     </footer>
