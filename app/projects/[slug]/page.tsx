@@ -34,14 +34,14 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
 
       <div className="space-y-8">
         <div>
-          <h1 className="text-4xl font-bold gradient-text">{project.title}</h1>
+          <h1 className="text-4xl font-bold text-[#00e0ff]">{project.title}</h1>
           <p className="mt-2 text-muted-foreground">{project.category}</p>
         </div>
 
         <div className="overflow-hidden rounded-lg border">
           <div
             className="h-1 w-full"
-            style={{ backgroundImage: "linear-gradient(to right, #00e0ff, #8a7cfb, #ffb300)" }}
+            style={{ color: "#00e0ff" }}
           ></div>
           <Image
             src={project.image || "/placeholder.svg"}

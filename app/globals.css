@@ -112,7 +112,8 @@ html {
   height: 0.25rem;
   width: 6rem;
   margin: 3rem auto;
-  background-image: linear-gradient(to right, #00e0ff, #8a7cfb, #ffb300);
+  background-color: #8a7cfb;
+  /* background-image: linear-gradient(to right, #00e0ff, #8a7cfb, #ffb300); */
   border-radius: 9999px;
 }
 

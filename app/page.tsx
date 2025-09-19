@@ -20,11 +20,11 @@ export default function Home() {
         </h2>
         <div className="space-y-4 accent-border">
           <p>
-          I'm Harry Lonsdale, a third-year undergraduate student in Mathematics - Computer Science at UC San Diego.
+          I'm Harry Lonsdale, an undergraduate student in Mathematics - Computer Science at UC San Diego graduating December 2025.
           This is my portfolio documenting my work. Check out some of my projects, or scroll to the bottom for contact info.
           </p>
           <p>
-          I'm a software engineer with experience across a wide range of fields, including full-stack web development, robotics,  data visualization, and more. I've built responsive React frontends that interface with microcontrollers for real-time control, developed computer vision algorithms using ROS2/C++ for competitive robotics, and created DevOps dashboards and E-commerce features.
+          I'm a software engineer with experience across multiple fields, including aerospace, full-stack web development, robotics,  data visualization, and more. I've built responsive React frontends that interface with microcontrollers for real-time control, developed computer vision algorithms using ROS2/C++ for competitive robotics, and created DevOps dashboards and E-commerce features.
           </p>
         </div>
         <div className="mt-8 flex flex-col sm:flex-row gap-4 items-center justify-center">
