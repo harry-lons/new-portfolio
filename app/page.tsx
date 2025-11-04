@@ -26,6 +26,9 @@ export default function Home() {
           <p>
           I'm a software engineer with experience across multiple fields, including aerospace, full-stack web development, robotics,  data visualization, and more. I've built responsive React frontends that interface with microcontrollers for real-time control, developed computer vision algorithms using ROS2/C++ for competitive robotics, and created DevOps dashboards and E-commerce features.
           </p>
+          <p>
+            I also enjoy math, and I'm currently the president of SUMS (Society of Undergraduate Mathematics Students) at UCSD. I'm currently reading Douglas Hofstadter's <a href="https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-600 underline">Gödel, Escher, Bach: An Eternal Golden Braid</a>.
+          </p>
         </div>
         <div className="mt-8 flex flex-col sm:flex-row gap-4 items-center justify-center">
           <Button
@@ -61,7 +64,7 @@ export default function Home() {
           Get in touch
         </h2>
         <p className="mb-8 text-muted-foreground accent-border-gold mx-auto max-w-2xl text-left">
-          Feel free to reach out if curious about my work, or if you have any questions. Though I'm not currently seeking work, I'm always open to discussing new projects and ideas!
+          Feel free to reach out if curious about my work, or if you have any questions. I'm always open to discussing new projects, ideas, or opportunities.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Button asChild className="bg-[#00e0ff] hover:bg-[#00e0ff]/80 text-black">
